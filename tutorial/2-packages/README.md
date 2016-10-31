@@ -27,4 +27,4 @@ Bu örnekte `color` paketi size sadece basit bir paketin nasıl kullanıldığı
 
 Sonraki bölüm: [3 - Babel ve Gulp ile ES6 sözdizimini kullanmak](/tutorial/3-es6-babel-gulp)
 
-[Bir önceki bölüme](/tutorial/1-node-npm-yarn-package-json) veya [içindekilere](https://github.com/verekia/js-stack-from-scratch) geri dön.
+[Bir önceki bölüme](/tutorial/1-node-npm-yarn-package-json) veya [içindekilere](/) geri dön.
