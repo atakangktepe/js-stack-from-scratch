@@ -1,4 +1,4 @@
-# JavaScript Stack from Scratch
+# Sıfırdan JavaScript Çatısı Oluşturma
 
 [![Yarn](/img/yarn.png)](https://yarnpkg.com/)
 [![React](/img/react.png)](https://facebook.github.io/react/)
