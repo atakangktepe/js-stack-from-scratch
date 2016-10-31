@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-`npm` Node için yapılmış Node ile birlikte gelen paket yöneticisidir. Yani ayriyetten kurmanıza gerek yok. 
+`npm` Node için yapılmış Node ile birlikte gelen paket yöneticisidir. Yani ayriyetten kurmanıza gerek yok.
 
-**Note**: Eğer daha önceden Node kurduysanız, `nvm` ([Node Version Manager](https://github.com/creationix/nvm)) kurarak Node'un son sürümünü kurup kullanabilirsiniz.
+**Not**: Eğer daha önceden Node kurduysanız, `nvm` ([Node Version Manager](https://github.com/creationix/nvm)) kurarak Node'un son sürümünü kurup kullanabilirsiniz.
 
 [Yarn](https://yarnpkg.com/) ise NPM'den daha hızlı olan bir paket yöneticisidir. Paketleri çevrimdışı kurmak için önbellekler. Ekim 2016'dan çıktığından bu yana çok hızlı adapte olmuş ve JavaScript topluluğunun yeni paket yöneticisi haline gelmektedir. Bu yazıda biz Yarn kullanacağız. Eğer NPM kullanmaya devam etmek isterseniz basitçe tüm `yarn add` ve `yarn add --dev` komutlarını `npm install --save` ve `npm install --dev` ile değiştirebilirsiniz.
 
@@ -50,4 +50,4 @@ yarn-error.log
 
 Sonraki bölüm: [2 - Bir paket kurup kullanma](/tutorial/2-packages)
 
-[İçindekilere](https://github.com/verekia/js-stack-from-scratch) geri dön. 
+[İçindekilere](https://github.com/verekia/js-stack-from-scratch) geri dön.
