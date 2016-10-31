@@ -36,7 +36,7 @@ Bu yazının kodları Linux, macOs ve Windows ortamında çalışır.
 
 [2 - Bir paket kurup kullanma](/tutorial/2-packages)
 
-[3 - Babel ve Gulp ile ES6 ayarlama](/tutorial/3-es6-babel-gulp)
+[3 - Babel ve Gulp ile ES6 sözdizimini kullanmak](/tutorial/3-es6-babel-gulp)
 
 [4 - ES6 sözdizimini bir class ile kullanmak](/tutorial/4-es6-syntax-class)
 
