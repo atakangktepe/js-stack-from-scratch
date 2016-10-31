@@ -1,6 +1,6 @@
-# 4 - Using the ES6 syntax with a class
+# 4 - ES6 sözdizimini bir class ile kullanmak
 
-- Create a new file, `src/dog.js`, containing the following ES6 class:
+- Aşağıdaki ES6 ile yazılmış sınıfı içeren kodu, `src/dog.js` adında yeni bir dosya oluşturup içerisine yazın:
 
 ```javascript
 class Dog {
@@ -16,11 +16,11 @@ class Dog {
 module.exports = Dog;
 ```
 
-It should not look surprising to you if you've done OOP in the past in any language. It's relatively recent for JavaScript though. The class is exposed to the outside world via the `module.exports` assignment.
+Eğer geçmişte herhangi bir dilde OOP yazdıysanız bu sizin için şaşırtıcı olmamalı. Sınıfı `module.exports` atamasıyla dış dünyaya açıyoruz.
 
-Typical ES6 code uses classes, `const` and `let`, "template strings" (with back ticks) like the one in `bark()`, and arrow functions (`(param) => { console.log('Hi'); }`), even though we're not using any in this example.
+Tipik ES6 kodu sınıflar, `const`, `let`, "template strings" (ters tırnak ile) `bark()` fonskiyonunun içindeki gibi ve `arrow functions` kullanıyor olsa bile biz herhangi birini bu örnekte kullanmıyoruz.
 
-In `src/index.js`, write the following:
+`src/index.js` içersine, aşağıdakileri yazın:
 
 ```javascript
 const Dog = require('./dog');
@@ -29,13 +29,12 @@ const toby = new Dog('Toby');
 
 console.log(toby.bark());
 ```
-As you can see, unlike the community-made package `color` that we used before, when we require one of our files, we use `./` in the `require()`.
+Gördüğünüz gibi, toplululuğun yaptığı paket olan `color` aksine bizim yaptığımız dosyayı `require()` fonksiyonu içerisinde `./` kullanarak çağırdık.
 
-- Run `yarn start` and it should print 'Wah wah, I am Toby'.
+- `yarn start` komutunu çalıştırın. Bu 'Wah wah, I am Toby' çıktısını vermeli.
 
-- Take a look at the code generated in `lib` to see how your compiled code looks like (`var` instead of `const` for instance).
+- Derlenmiş dosyanıza `lib` klasörü altında bir göz atın. (Örnek olarak `const` yerine `var` kullanıldığını görebilirsiniz.)
 
+Sonraki bölüm: [5 - The ES6 modules syntax](/tutorial/5-es6-modules-syntax)
 
-Next section: [5 - The ES6 modules syntax](/tutorial/5-es6-modules-syntax)
-
-Back to the [previous section](/tutorial/3-es6-babel-gulp) or the [table of contents](https://github.com/verekia/js-stack-from-scratch).
+[Bir önceki bölüme](/tutorial/3-es6-babel-gulp) veya [içindekilere](https://github.com/atakangktepe/js-stack-from-scratch) geri dön.
