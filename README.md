@@ -12,63 +12,64 @@
 
 [![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch)
 
-Welcome to my modern JavaScript stack tutorial: **JavaScript Stack from Scratch**.
+Modern Javascript yazısına hoşgeldiniz! Orjinal yazıyı buradan görebilirsiniz: [https://github.com/verekia/js-stack-from-scratch](JavaScript Stack from Scratch)
 
-This is a minimalistic and straight-to-the-point guide to assembling a JavaScript stack. It requires some general programming knowledge, and JavaScript basics. **It focuses on wiring tools together** and giving you the **simplest possible example** for each tool. You can see this tutorial as *a way to write your own boilerplate from scratch*.
+Bu minimalistik bir Javascript çatısı kurma yazısıdır. Bu yazı genel programlama ve JavaScript temelleri bilgisi gerektirir. Bu yazı araçları birbirine bağlamaya ve her araç için bir örnek vermeye odaklanmıştır. Bu yazıyı sıfırdan kendi *boilerplate*'inizi yazmak olarak düşünebilirsiniz.
 
-You don't need to use this entire stack if you build a simple web page with a few JS interactions of course (a combination of Babel + jQuery is enough!), but if you want to build a web app that scales, and need help setting things up, this tutorial will work great for you.
+Eğer biraz etkileşimli basit bir websitesi yapıyorsanız tabii ki bu çatıya ihtiyacınız yok (Babel + jQuery kombinaysonu sizin için yeterli!), fakat ölçeklenebilir bir web uygulaması yapacaksanız bu yazı sizin için mükemmel olacaktır.
 
-Since the goal of this tutorial is to assemble various tools, I do not go into details about how these tools work individually. Refer to their documentation or find other tutorials if you want to acquire deeper knowledge in them.
+Bu yazının amacı çeşitli araçları birleştirmektir, bu araçların detaylarına inip nasıl çalıştığı hakkında bilgi vermeyeceğim. Derin bilgiye ulaşmak için o araçların dökümantasyonlarına veya başka yazılara göz atabilirsiniz. 
 
-A big chunk of the stack described in this tutorial uses React. If you are beginning and just want to learn React, [create-react-app](https://github.com/facebookincubator/create-react-app) will get you up and running with a React environment very quickly with a premade configuration. I would for instance recommend this approach to someone who arrives in a team that's using React and needs to catch up with a learning playground. In this tutorial you won't use a premade configuration, because I want you to understand everything that's happening under the hood.
+Bu yazının büyük bir bölümünde React kullanılmıştır, Eğer başlangıçtaysanız ve sadece React öğrenmek istiyorsanız [create-react-app](https://github.com/facebookincubator/create-react-app) *repo*'su önceden hazırlanmış yapılandırmayla React ortamını hızlı kurmanıza sağlayacaktır. Bu yazıda daha önce yapılandırılmış bir ayara ihtiyacınız yok, çünkü ben sizin bütün bu yapının altında neler olduğunu anlamanızı istiyorum.
 
-Code examples are available for each chapter, and you can run them all with `yarn && yarn start` or `npm install && npm start`. I recommend writing everything from scratch yourself by following the **step-by-step instructions** of each chapter.
+Kod örnekleri bütün bölümlerde var ve `yarn && yarn start` veya `npm install && npm start` komutlarıyla çalıştırabilirsin. Ben size sıfırdan adım adım talimatları izleyerek ilerlemenizi öneriyorum.
 
-**Every chapter contains the code of previous chapters**, so if you are simply looking for a boilerplate project containing everything, just clone the last chapter and you're good to go.
+**Bütün bölümler bir önceki bölümün kodarını içeriyor**, yani eğer bir *boilerplate* istiyorsanız sadece son bölümü kopyalayıp devam edebilirsiniz. 
 
 Note: The order of chapters is not necessarily the most educational. For instance, testing / type checking could have been done before introducing React. It is quite difficult to move chapters around or edit past ones, since I need to apply those changes to every following chapter. If things settle down, I might reorganize the whole thing in a better way.
 
-The code of this tutorial works on Linux, macOS, and Windows.
+Bu yazının kodları Linux, macOs ve Windows ortamında çalışır.
 
-## Table of contents
+## İçindekiler
 
-[1 - Node, NPM, Yarn, and package.json](/tutorial/1-node-npm-yarn-package-json)
+[1 - Node, NPM, Yarn, ve package.json](/tutorial/1-node-npm-yarn-package-json)
 
-[2 - Installing and using a package](/tutorial/2-packages)
+[2 - Bir paket kurup kullanma](/tutorial/2-packages)
 
-[3 - Setting up ES6 with Babel and Gulp](/tutorial/3-es6-babel-gulp)
+[3 - Babel ve Gulp ile ES6 ayarlama](/tutorial/3-es6-babel-gulp)
 
-[4 - Using the ES6 syntax with a class](/tutorial/4-es6-syntax-class)
+[4 - ES6 sözdizimini bir class ile kullanmak](/tutorial/4-es6-syntax-class)
 
-[5 - The ES6 modules syntax](/tutorial/5-es6-modules-syntax)
+[5 - ES6 modül sözdizimi](/tutorial/5-es6-modules-syntax)
 
 [6 - ESLint](/tutorial/6-eslint)
 
-[7 - Client app with Webpack](/tutorial/7-client-webpack)
+[7 - Webpack ile Client uygulaması](/tutorial/7-client-webpack)
 
 [8 - React](/tutorial/8-react)
 
 [9 - Redux](/tutorial/9-redux)
 
-[10 - Immutable JS and Redux Improvements](/tutorial/10-immutable-redux-improvements)
+[10 - Immutable JS ve Redux iyileştirmeleri](/tutorial/10-immutable-redux-improvements)
 
-[11 - Testing with Mocha, Chai, and Sinon](/tutorial/11-testing-mocha-chai-sinon)
+[11 - Mocha, Chai, ve Sinon ile test yapma](/tutorial/11-testing-mocha-chai-sinon)
 
-[12 - Type Checking with Flow](/tutorial/12-flow)
+[12 - Flow ile Tip Denetleme (Type Checking)](/tutorial/12-flow)
 
-## Coming up next
+## Sırada
 
-Production / development environments, Express, React Router, Server-Side Rendering, Styling, Enzyme, Git Hooks.
+Üretim/Geliştirme ortamları, Express, React Router, Server-side Rendering, Styling, Enzyme, Git Hooks.
 
-## Translations
+## Çeviriler
 
 - [Chinese](https://github.com/pd4d10/js-stack-from-scratch) by [@pd4d10](http://github.com/pd4d10)
 - [Italian](https://github.com/fbertone/js-stack-from-scratch) by [Fabrizio Bertone](https://github.com/fbertone)
+- [Turkish](https://github.com/atakangktepe/js-stack-from-scratch) by [Atakan Goktepe](https://github.com/atakangktepe)
 
-If you want to add your translation, please read the [translation recommendations](/how-to-translate.md) to get started!
+Eğer kendi çevirinizi eklemek istiyorsanız, başlamak için lütfen [çeviri önerileri](/how-to-translate.md) bölümünü okuyun!
 
-## Credits
+## Katkıda Bulunanlar
 
-Created by [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
+[@verekia](https://twitter.com/verekia) tarafından oluşturuldu – [verekia.com](http://verekia.com/).
 
-License: MIT
+Lisans: MIT
